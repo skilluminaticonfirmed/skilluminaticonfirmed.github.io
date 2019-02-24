@@ -3,6 +3,7 @@ title: skilluminaticonfirmed
 markdown: kramdown
 plugins:
     - jekyll-remote-theme
+    - jekyll-include-cache
 remote_theme: "mmistakes/minimal-mistakes@4.15.2"
 minimal_mistakes_skin: "dark"
 permalink: /writeups/:year/:month/:day/:title
