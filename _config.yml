@@ -1,0 +1,4 @@
+name: skilluminaticonfirmed
+markdown: kramdown
+
+permalink: /writeups/:year/:month/:day/:title
