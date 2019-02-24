@@ -1,7 +1,9 @@
 name: skilluminaticonfirmed
 title: skilluminaticonfirmed
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+plugins:
+    - jekyll-remote-theme
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 permalink: /writeups/:year/:month/:day/:title
 defaults:
