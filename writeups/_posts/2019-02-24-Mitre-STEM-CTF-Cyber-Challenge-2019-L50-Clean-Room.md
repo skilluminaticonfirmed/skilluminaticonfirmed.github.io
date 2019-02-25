@@ -3,15 +3,18 @@ layout: single
 title: "MITRE STEM CTF Cyber Challenge 2019 - Clean Room (Linux 50pts)"
 date: 2019-02-24
 ---
-Description
-The year is 30xx. Clyde is trapped in an interdimensional transport module. The Federation has captured the module and has prepared to dock. The captain of the Federation lander has instructed the henchmen to bring Clyde in to Federation custody. As a precaution they will place Clyde in a clean room to remove any radiation. Luckily, you’ve hacked into the lander’s mainframe. Help Clyde escape!
+Description:
 
-ssh ctf@138.247.13.108
+>The year is 30xx. Clyde is trapped in an interdimensional transport module. The Federation has captured the module and has prepared to dock. The captain of the Federation lander has instructed the henchmen to bring Clyde in to Federation custody. As a precaution they will place Clyde in a clean room to remove any radiation. Luckily, you’ve hacked into the lander’s mainframe. Help Clyde escape!
 
+>ssh ctf@138.247.13.108
+
+
+```
 ctf@e94f4dd9664a:~$ ls
 -rbash: ls: command not found
-
-What the rbash?!
+```
+## What the rbash?!
 
 From the [bash manual](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html).
 
